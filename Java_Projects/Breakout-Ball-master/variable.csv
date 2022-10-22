@@ -1,0 +1,23 @@
+file,class,method,variable,usage
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Bricks.java,Bricks,"Bricks/2[int,int]",col,3
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Bricks.java,Bricks,"Bricks/2[int,int]",row,3
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Bricks.java,Bricks,"setBrickValue/2[int,int]",col,1
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Bricks.java,Bricks,"setBrickValue/2[int,int]",row,1
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Bricks.java,Bricks,draw/1[java.awt.Graphics],g,5
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,keyPressed/1[java.awt.event.KeyEvent],e,3
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,showMessage/1[java.awt.Graphics],g,5
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,actionPerformed/1[java.awt.event.ActionEvent],ball,4
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,actionPerformed/1[java.awt.event.ActionEvent],flag,2
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,actionPerformed/1[java.awt.event.ActionEvent],brickRect,4
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,actionPerformed/1[java.awt.event.ActionEvent],e,0
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,actionPerformed/1[java.awt.event.ActionEvent],brickX,2
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,actionPerformed/1[java.awt.event.ActionEvent],brickHeight,3
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,actionPerformed/1[java.awt.event.ActionEvent],brickWidth,3
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,actionPerformed/1[java.awt.event.ActionEvent],i,5
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,actionPerformed/1[java.awt.event.ActionEvent],brickY,2
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,actionPerformed/1[java.awt.event.ActionEvent],j,5
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,paint/1[java.awt.Graphics],g,19
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,end/1[java.awt.Graphics],g,3
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,keyTyped/1[java.awt.event.KeyEvent],e,0
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Gameplay.java,Gameplay,keyReleased/1[java.awt.event.KeyEvent],e,0
+C:\OOD\Java\Breakout-Ball-master\Breakout Ball\src\Main.java,Main,main/1[java.lang.String[]],args,0

@@ -1,0 +1,13 @@
+file,class,method,variable,usage
+C:\OOD\Java\Java-Snake-Game-main\src\App.java,App,main/1[java.lang.String[]],args,0
+C:\OOD\Java\Java-Snake-Game-main\src\GamePanel.java,GamePanel,paintComponent/1[java.awt.Graphics],g,2
+C:\OOD\Java\Java-Snake-Game-main\src\GamePanel.java,GamePanel,gameOver/1[java.awt.Graphics],metrics2,1
+C:\OOD\Java\Java-Snake-Game-main\src\GamePanel.java,GamePanel,gameOver/1[java.awt.Graphics],metrics1,1
+C:\OOD\Java\Java-Snake-Game-main\src\GamePanel.java,GamePanel,gameOver/1[java.awt.Graphics],g,9
+C:\OOD\Java\Java-Snake-Game-main\src\GamePanel.java,GamePanel,move/0,i,6
+C:\OOD\Java\Java-Snake-Game-main\src\GamePanel.java,GamePanel,draw/1[java.awt.Graphics],g,14
+C:\OOD\Java\Java-Snake-Game-main\src\GamePanel.java,GamePanel,draw/1[java.awt.Graphics],i,14
+C:\OOD\Java\Java-Snake-Game-main\src\GamePanel.java,GamePanel,draw/1[java.awt.Graphics],metrics,1
+C:\OOD\Java\Java-Snake-Game-main\src\GamePanel.java,GamePanel,checkCollisions/0,i,4
+C:\OOD\Java\Java-Snake-Game-main\src\GamePanel.java,GamePanel,actionPerformed/1[java.awt.event.ActionEvent],e,0
+C:\OOD\Java\Java-Snake-Game-main\src\GamePanel.java,GamePanel$MyKeyAdapter,keyPressed/1[java.awt.event.KeyEvent],e,1

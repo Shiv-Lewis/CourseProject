@@ -1,0 +1,7 @@
+file,class,method,variable,usage
+C:\OOD\Java\Clock-Stopwatch-master\Clock-Stopwatch\src\Clock_Stopwatch.java,Clock_Stopwatch,actionPerformed/1[java.awt.event.ActionEvent],arg0,2
+C:\OOD\Java\Clock-Stopwatch-master\Clock-Stopwatch\src\Clock_Stopwatch.java,Clock_Stopwatch,setTime/0,e,1
+C:\OOD\Java\Clock-Stopwatch-master\Clock-Stopwatch\src\Clock_Stopwatch.java,Clock_Stopwatch$Anonymous1,actionPerformed/1[java.awt.event.ActionEvent],e,0
+C:\OOD\Java\Clock-Stopwatch-master\Clock-Stopwatch\src\Clock_Stopwatch.java,Clock_Stopwatch$Anonymous2,actionPerformed/1[java.awt.event.ActionEvent],e,0
+C:\OOD\Java\Clock-Stopwatch-master\Clock-Stopwatch\src\Main.java,Main,main/1[java.lang.String[]],args,0
+C:\OOD\Java\Clock-Stopwatch-master\Clock-Stopwatch\src\Clock_Stopwatch.java,Clock_Stopwatch$Anonymous3,actionPerformed/1[java.awt.event.ActionEvent],e,0
