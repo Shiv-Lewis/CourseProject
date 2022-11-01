@@ -1,0 +1,69 @@
+Title Of Your Project - Designing an Enterprise Architecture for Sales and Marketing using Client Server Architecture
+Your Name - 
+Your Github URL - 
+Current Date – 
+
+
+Part 1 – Design
+1). Product Specification
+The database system is being developed for the retail toy industry in the United States. Soft toys of Nemo, Ponyo, Jellyfish girl, Starfish, Blippi, and Mermaids have been developed by this organisation. Underwater building blocks, Monster Planet with Aqua Creators, deep dive Spiderman, underwater Pkoeman action figures, and an underwater animal play set Dive ring, diving sticks, aquatic dive balls, water torpedo bandits, and diving fishes are some of the water toys available. These toys are manufactured from non-toxic plastics and pigments. The Aquattium series of underwater toy tale books for youngsters to read consists of ten volumes with various topics. Aquarium puzzle wooden toy set for children to play indoors and outdoors. The toys are composed of high-quality wood with a clear finish. These toys will have a significant impact on children's thinking and creativity. All of the toys are designed with children's safety in mind, with no tiny pieces and no sharp edges.
+The organization's headquarters are in Dallas, Texas, with offices in Boston, Ohio. With 10 branches around the United States, the company employs 800-1000 people in manufacture, distribution, and marketing of toys. In 2021, the organization's total revenue is expected to be $20 million. 
+2). Business Comparison
+I choose the "Target" business organization for the business comparison with the toy business organization. Target, based in Minneapolis, is a general retailer with 1938 locations around the United States. In their organization, they have over 400000 employees. Brain Cornell is the organization's CEO. Target's overall revenue in 2021 is expected to be around $106 billion.
+The URL link for the organization website is given below
+https://corporate.target.com/about
+When we compare our company to the Target group, we see that both are retail businesses with multiple branches. The business entities employed in each branch vary depending on the needs of the customer. It is clear from Target's business approach that we need to indicate diverse business strategies for different locations. The US toy market contributes 50% of the global toy industry, which stood at 129.5 billion in 2020 and is expected to reach 235 billion by 2030. Our company's growth rate is predicted to climb by 20% by 2025.
+3). Architectural Design for the Business Database
+The expanding customer experience and competition drive the high demand for database management systems that are more scalable, dependable, agile, and inexpensive, with enhanced availability and performance. The database should be able to manage a large number of customer and operational data while reducing management costs and time  CITATION Dee22 \l 1033 (Deeksha, 2022). The database must be capable of supporting a product and pricing catalogue, customer profile management, inventory management, a 360-degree view of the customer, and sales and marketing data. To achieve these objectives, retail business management must transition from a monolithic to a microservices-based design. In this research, we will investigate how the retail toy business industry may make this transformation. The requirement needs of the developing business management design are discussed below.
+Provide 24x7x365 services availability: This can be achieved using the inter-cluster replication and enterprise support.
+Data types with easily accommodate and evolving: This can be achieved using the JSON model for the optimized memory index.
+Integration with data tools: By connecting the big data technology of Hadoop, Spark in the architecture.
+Simplified Development: Through the micro services platforms.
+The workload is divided between the client and the server in the client-server architecture. Clients are those who request services, and servers are those who supply such services. The server stores the various applications and shares them with the client as needed. This system is a centralized resource in which the server houses all of the resources. To react to the client's request, the server must be highly secure and scalable. Any functions will not disrupt the client services in this architecture. The proposed design is a network-based client-server architecture with a three-tier structure. By sending the query response rather than the entire file transmission, this technique reduces network bandwidth  CITATION Als20 \l 1033 (Alseelawi, Adnan, Hazim, Alrikabi, & Nasser, 2020). Additionally, the common database enables for numerous user interfaces.
+3-tier Architecture Design
+The client-server architecture gives the precise architectural framework for the company to tackle its changing problems. This model's working method is summarized below:
+* The client send request to the server via the network devices
+* The request is authenticated by the network server and the process the client request
+* The server sends the response to the client through the network  CITATION Hen19 \l 1033 (Hendricks, 2019). 
+This design employs five functionalities: presentation layer, user interface layer, application layer, data access layer, and database layer. The functions of these levels are described further below
+Presentation layer: This can be used to see the outcomes of the user's queries and requests. The user can view the information in a readable format. The user interface of the website is the profile page. This layer's functions include user authentication, receiving user requests, sending user requests to the server database via the network, and displaying the processed queries from the server in a viewable way. Employees and the management team are the users in this organization. This allows the employee to gain access to information such as the distribution procedure in each state across the United States. The inventory and logistics are entered into the system, and the marketing team can view the data. The user can view information such as location, contract details, invoices, item pricing and stocking, and business retailer information. Users from multiple locations within the organization can access the database concurrently and without interruption.
+User Interaction: This layer is in charge of interpreting user commands. They translate the user input into the format that will be sent to the server when the button is pressed, and they translate the server response into a user-friendly format. The client-side rendering of the process is done using HTML web pages and Java script in this architecture.
+The presentation layer and user interface layer act as the client and send request to the server and get response from the data server. This will act as the first tire of the architecture.
+Application Layer: This layer serves as a bridge between the data server and the client. This layer is in charge of validating the user's input data. Data manipulation, security, data processing, and database lookups are all functions.
+Data Access Layer: This layer performs the code-level activities required to update the database functions. This layer interprets user updates and stores them in the database server. This layer performs operations such as insert, remove, and update. This layer performs user updates on stocks, retailers, sales data, customer information, inventory, and item prices, which are then saved in the database server. This acts as a bridge between the application and the database. It is built on the.NET framework and runs on the Microsoft Internet Information Server.
+The business logic and the data access are the micros vies that allows the user and server to communicate each other  CITATION Bar19 \l 1033 (Barabanova, Kravets, Tkalich, & Mutin, 2019). This will act as the second tire of the architecture.
+Database Layer: This layer contains all of the raw data in the MySQL database. This database's user queries enable various activities on the database. This layer is responsible for the physical implementation of database operations on business data. This includes data files as well as mechanisms for storing and retrieving data from the server. On-premise and cloud hosting are also options. This layer serves as the architecture's third layer.
+
+
+Figure 1: Client Server Architecture diagram for the database system
+This enterprise architecture is consistent with the organization structure, business processes, information system architecture, and enterprise structure. This approach allows for more active nodes, which improves performance by allowing for faster file transfers. In terms of user application and system maintenance, this system is cost effective.
+4). Data Types used in the Business
+The key elements that are being stored in the database are given below
+Product Information: The store must keep a complete inventory of all the products that are being sold to customers. This will aid in identifying stocking, sales ratios, and commonly purchased combined products. The database should include information on all of the toys, as well as their entire histories.
+Product Attribute: Each toy will be distinguished by its weight, size, color, material, and so on. This aids in categorizing the toys in the structural format via categories and subcategories. This is also used to readily recognize the toys in varied sizes and colors.
+Price: Each toy in the store varied with price. This detail stores the price of the toys using the barcode.
+Location: Details of different store location, contact number, mail id, stockings, sales details of that particular branch.
+Employee Details: Employee information such as working branch, salary, working days, and incentives, as well as personal information such as contact number, mail ID, and address.
+Order Details: This includes regaining details, orders obtained, orders delivered, and transaction details for calculating revenue details. This information can be used to build a revenue report, forecast future orders, and marinate business transaction records.
+5). Cloud Data Migration
+Data migration tools are used to extract data from one source, move it to a new server or system, and validate the content. Storage migration is the data migration tool employed in the given situation. Storage migration refers to the business migration of data from one storage to another. This is the process of transferring data from one physical media to another  CITATION Ahm181 \l 1033 (Ahmad, Naveed, & Hoda, 2018). This is done in order to upgrade the company to more advanced storage equipment. The big bang data migration approach moves all data operations to the target database in a single move.
+The following are the cloud migration tools used for transferring data from on-premises storage to the cloud server.
+* AWS cloud: It is the Amazon Web Services provides reliable scalable and low-cost infrastructure for using cloud server and applications.
+* Microsoft Azure: this is used to test, deploy, and manage the applications through the Microsoft database centers.
+* Google Cloud: It provides the real time data migration using the Google suit.
+* Dynatrace: It is the Artificial Intelligence based cloud migration tool with reduced complexity and increased speed.
+* Carbonite Migrate: it ensures the repeatable and structured data migration.
+The details regarding the cloud migration tools are found in the below mentioned link: 
+https://www.educba.com/cloud-migration-tools/
+To interchange electronic data products between systems, the data must be prepared in a specific manner. For the system to interpret and handle the information, the data must be organized in a systematic manner. The following are some of the structured data formats used in data migration product transfer.
+JSON - JavaScript Object Notation is the light weight with less processing power for handling nested structures.
+CSV – Comma Separated Values is a flat structured data format used for the small and medium applications.
+COBRA - Common Object Request Broker Architecture used to transfer complex objects between the systems.
+References
+ BIBLIOGRAPHY Ahmad, N., Naveed, Q., & Hoda, N. (2018). Strategy and procedures for Migration to the Cloud Computing. IEEE 5th International Conference on Engineering Technologies and Applied Sciences (ICETAS) (pp. 1-5). IEEE.
+Alseelawi, N., Adnan, E., Hazim, H., Alrikabi, H., & Nasser, K. (2020). Design and implementation of an e-learning platform using N-TIER architecture. International Association of Online Engineering.
+Barabanova, I., Kravets, O., Tkalich, S., & Mutin, D. (2019). Analysis of the intermediate layer work in the three-tier architecture “client-server” of automation engineering problems. IOP Conference Series: Materials Science and Engineering (p. 032011). IOP Publishing.
+Deeksha, S. (2022). Database Management System and Types of Build Architecture. Mathematical Statistician and Engineering Applications , 71 (4), 1380-1388.
+Hendricks, W. (2019). Review of NoSQL Data Stores: Using a reactive three-tier application for software developers to achieve a high availability application design architecture. Open Innovations (OI). IEEE.
+
+
